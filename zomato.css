@@ -1,0 +1,565 @@
+html {
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.zomatopage {
+    background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.2)), url(./zimages/zomatobackgr.webp);
+    height: 59vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding-top: 20px;
+
+}
+
+.logo img {
+    width: 120px;
+
+}
+
+.signup input::placeholder {
+    color: white;
+
+}
+
+.signup p {
+    color: beige;
+    position: absolute;
+    right: 533px;
+    top: 29px;
+    font-size: 21px;
+}
+
+.signup input {
+    width: 38px;
+    height: 18px;
+    padding: 6px 20px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+
+.signup button {
+    width: 130px;
+    height: 35px;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(19, 77, 194, 0.927);
+    transition: 1s;
+    margin-left: 18px;
+}
+
+.signup button:hover {
+    background-color: rgb(15, 0, 231);
+}
+
+.content {
+    color: white;
+    padding: 30px 370px;
+
+}
+
+.content h6 {
+    
+    font-size: 40px;
+}
+
+.content p {
+    font-size: 19px;
+    padding: 25px 8px;
+}
+
+.content button {
+    width: 370px;
+    padding: 15px 50px;
+    /* height: 50px; */
+    font-size: 17px;
+    background-color: rgb(10, 112, 228);
+    color: white;
+    border: 0;
+    border-radius: 10px;
+}
+
+.hi {
+    margin-right: 10px;
+}
+
+.content input {
+    width: 330px;
+    /* height: 50px; */
+    padding: 15px 25px;
+    font-size: 17px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.emg {
+    position: relative;
+    top: 10px;
+}
+
+.box {
+    border: 1px solid white;
+    width: 100%;
+    height: 380px;
+    background-color: rgb(244, 244, 244);
+
+}
+
+.table {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 10px;
+    height: 350px;
+    width: 700px;
+    transform: translateX(405px);
+    position: absolute;
+    top: 410px;
+    left: -14px;
+    box-shadow: rgba(28, 28, 28, 0.2) 0px 14px 16px;
+
+}
+
+.list {
+    padding: 20px 142px;
+}
+
+.list h6 {
+    color: rgb(71, 71, 71);
+    font-size: 29px;
+}
+
+.list p {
+    margin: 5px;
+    font-size: 18px;
+}
+
+.inside {
+    display: grid;
+    grid-template-columns: 0.6fr 0.6fr;
+}
+
+
+.l1 {
+    padding: 25px 50px;
+    font-size: 20px;
+}
+
+.l1 img {
+    position: absolute;
+    top: 125px;
+    left: 27px;
+
+}
+
+.l2 {
+    padding: 25px 50px;
+    font-size: 20px;
+
+}
+
+.l2 img {
+    position: absolute;
+    top: 127px;
+    left: 377px;
+}
+
+.l3 {
+    padding: 25px 50px;
+    font-size: 20px;
+}
+
+.l3 img {
+    position: absolute;
+    top: 199px;
+    left: 26px;
+}
+
+.l4 {
+    padding: 25px 50px;
+    font-size: 20px;
+}
+
+.l4 img {
+    position: absolute;
+    top: 200px;
+    left: 375px;
+}
+
+.l5 {
+    padding: 25px 50px;
+    font-size: 20px;
+}
+
+.l5 img {
+    position: absolute;
+    top: 271px;
+    left: 27px;
+}
+
+.l6 {
+    padding: 25px 50px;
+    font-size: 20px;
+}
+
+.l6 img {
+    position: absolute;
+    top: 270px;
+    left: 375px;
+}
+
+
+/* table.... */
+
+.white {
+    margin: 0px;
+    border: 1px solid rgb(240, 240, 240);
+    width: 100%;
+    height: 390px;
+    background-color: transparent;
+}
+
+.why {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-left: 29vw; */
+    padding: 3rem 0rem;
+}
+
+.why h1{
+    padding-bottom: 30px;
+font-size: 40px;
+}
+.why p{
+  line-height: 30px;
+    font-size: 22px;
+
+  
+}
+
+ .earth {
+    display: flex;
+    justify-content: center; 
+    
+
+} 
+
+.boxs {
+    display: flex;
+    justify-content: space-around;
+    width: 70vw;
+
+}
+
+.box1 {
+    border: 6px solid white;
+    background-color: white;
+    width: 285px;
+    height: 100px;
+    border-radius: 8px;
+    box-shadow: rgba(28, 28, 28, 0.2) 0px 8px 16px;
+    transition: 1s;
+}
+
+.box1:hover {
+    transform: scale(1.15);
+}
+
+.box2 {
+    border: 6px solid white;
+    background-color: white;
+    width: 285px;
+    height: 100px;
+    border-radius: 8px;
+    box-shadow: rgba(28, 28, 28, 0.2) 0px 08px 16px;
+    transition: 1s;
+}
+
+.box2:hover {
+    transform: scale(1.15);
+}
+
+.box3 {
+    border: 6px solid white;
+    background-color: white;
+    width: 285px;
+    height: 100px;
+    border-radius: 8px;
+    box-shadow: rgba(28, 28, 28, 0.2) 0px 8px 18px;
+    transition: 1s;
+}
+
+.box3:hover {
+    transform: scale(1.15);
+}
+
+.e1 {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    transform: translateX(20px);
+}
+
+.e1 h5 {
+    margin-left: 20px;
+    font-size: 22px;
+    color: blue;
+}
+
+.e1 p {
+    position: relative;
+    top: 30px;
+    right: 95px;
+    font-size: 20px;
+}
+
+.e2 {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    transform: translateX(30px);
+}
+
+.e2 h5 {
+    margin-left: 20px;
+    font-size: 22px;
+    color: blue;
+}
+
+.e2 p {
+    position: relative;
+    top: 30px;
+    right: 85px;
+    font-size: 20px;
+
+}
+
+.e3 {
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    transform: translateY(20px);
+    /* transform: translateX(10px); */
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+
+.e3 h5 {
+    margin-left: 20px;
+    font-size: 22px;
+    color: blue;
+}
+
+.e3 p {
+    position: relative;
+    top: 30px;
+    right: 105px;
+    font-size: 20px;
+}
+
+.work {
+    background-image: url(./zimages/zomwork.webp);
+    width: 100%;
+    height: 340px;
+    background-size: cover;
+    background-position: center;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 61vw;
+}
+
+.s1 {
+    border: 1px solid white;
+    background-color: white;
+    width: 277px;
+    height: 337px;
+    border-radius: 8px;
+    box-shadow: rgba(28, 28, 28, 0.2) 0px 4px 16px;
+}
+
+/* .s1:hover{
+    transform: rotate(35deg);
+    border-radius: 50%;
+ } */
+.s2 {
+    border: 1px solid white;
+    background-color: white;
+    width: 277px;
+    height: 337px;
+    border-radius: 8px;
+    box-shadow: rgba(28, 28, 28, 0.2) 0px 4px 16px;
+}
+
+.s3 {
+    border: 1px solid white;
+    background-color: white;
+    width: 277px;
+    height: 337px;
+    border-radius: 8px;
+    box-shadow: rgba(28, 28, 28, 0.2) 0px 4px 16px;
+}
+
+.how p {
+    margin-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.how {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+
+}
+
+.step1img {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 147px;
+    width: 147px;
+    border-radius: 50%;
+    background-color: rgb(230 202 100 / 21%);
+    position: relative;
+    left: 55px;
+    top: 20px;
+}
+
+.step2img {
+    display: flex;
+    /* -webkit-box-pack: center; */
+    justify-content: center;
+    /* -webkit-box-align: center; */
+    align-items: center;
+
+    /* box creation */
+
+    height: 147px;
+    width: 147px;
+    border-radius: 50%;
+    background-color: rgb(230 202 100 / 21%);
+
+    position: relative;
+    left: 55px;
+    top: 20px;
+
+}
+
+.step3img {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 147px;
+    width: 147px;
+    border-radius: 50%;
+    background-color: rgb(230 202 100 / 21%);
+    position: relative;
+    left: 65px;
+    top: 20px;
+
+}
+
+.java {
+    padding: 60px 10px;
+}
+
+.step1 {
+    font-size: 23px;
+    margin-left: 85px;
+}
+
+.h {
+    margin: 10px;
+    font-size: 19px;
+    margin-left: 25px;
+    color: rgb(79, 79, 79);
+}
+
+.pp {
+    margin-left: 20px;
+    color: rgb(79, 79, 86);
+    ;
+}
+
+
+.sql {
+
+    padding: 60px 10px;
+}
+
+.step2 {
+    font-size: 23px;
+    margin-left: 85px;
+}
+
+.hh {
+    margin: 10px;
+    font-size: 19px;
+    margin-left: 25px;
+    color: rgb(79, 79, 79);
+}
+
+.p2 {
+    margin-left: 20px;
+    padding: 5px 6px;
+    color: rgb(79, 79, 86);
+    ;
+}
+
+.web {
+
+    padding: 60px 10px;
+
+}
+
+.step3 {
+    font-size: 23px;
+    margin-left: 85px;
+}
+
+.hq {
+    margin: 10px;
+    font-size: 19px;
+    margin-left: 25px;
+    color: rgb(79, 79, 79);
+}
+
+.p3 {
+    margin-left: 20px;
+    padding: 5px 6px;
+    color: rgb(79, 79, 86);
+    ;
+}
